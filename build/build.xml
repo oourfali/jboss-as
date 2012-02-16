@@ -214,6 +214,14 @@
             <maven-resource group="org.jboss.marshalling" artifact="jboss-marshalling-river"/>
         </module-def>
 
+        <module-def name="org.jboss.metadata">
+            <maven-resource group="org.jboss.metadata" artifact="jboss-metadata-common"/>
+            <maven-resource group="org.jboss.metadata" artifact="jboss-metadata-appclient"/>
+            <maven-resource group="org.jboss.metadata" artifact="jboss-metadata-ejb"/>
+            <maven-resource group="org.jboss.metadata" artifact="jboss-metadata-web"/>
+            <maven-resource group="org.jboss.metadata" artifact="jboss-metadata-ear"/>
+        </module-def>
+
         <module-def name="org.jboss.modules"/>
 
         <module-def name="org.jboss.msc">
@@ -913,14 +921,6 @@
 
         <module-def name="org.jboss.jts.integration">
             <maven-resource group="org.jboss.jbossts" artifact="jbossjts-integration"/>
-        </module-def>
-
-        <module-def name="org.jboss.metadata">
-            <maven-resource group="org.jboss.metadata" artifact="jboss-metadata-common"/>
-            <maven-resource group="org.jboss.metadata" artifact="jboss-metadata-appclient"/>
-            <maven-resource group="org.jboss.metadata" artifact="jboss-metadata-ejb"/>
-            <maven-resource group="org.jboss.metadata" artifact="jboss-metadata-web"/>
-            <maven-resource group="org.jboss.metadata" artifact="jboss-metadata-ear"/>
         </module-def>
 
         <module-def name="org.jboss.netty">
