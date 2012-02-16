@@ -160,6 +160,31 @@
         </dependency>
 
         <dependency>
+            <groupId>org.jboss.metadata</groupId>
+            <artifactId>jboss-metadata-appclient</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.metadata</groupId>
+            <artifactId>jboss-metadata-common</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.metadata</groupId>
+            <artifactId>jboss-metadata-ear</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.metadata</groupId>
+            <artifactId>jboss-metadata-ejb</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.metadata</groupId>
+            <artifactId>jboss-metadata-web</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.jboss.modules</groupId>
             <artifactId>jboss-modules</artifactId>
         </dependency>
@@ -1107,31 +1132,6 @@
                     <artifactId>jbossxts-api</artifactId>
                 </dependency>
                 -->
-
-                <dependency>
-                    <groupId>org.jboss.metadata</groupId>
-                    <artifactId>jboss-metadata-appclient</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.metadata</groupId>
-                    <artifactId>jboss-metadata-common</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.metadata</groupId>
-                    <artifactId>jboss-metadata-ear</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.metadata</groupId>
-                    <artifactId>jboss-metadata-ejb</artifactId>
-                </dependency>
-
-                <dependency>
-                    <groupId>org.jboss.metadata</groupId>
-                    <artifactId>jboss-metadata-web</artifactId>
-                </dependency>
 
                 <dependency>
                     <groupId>org.jboss.mod_cluster</groupId>
