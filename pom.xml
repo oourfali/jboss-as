@@ -5933,7 +5933,6 @@
                 <module>jdr</module>
                 <module>jpa</module>
                 <module>jsr77</module>
-                <module>logging</module>
                 <module>mail</module>
                 <module>messaging</module>
                 <module>modcluster</module>
