@@ -163,6 +163,10 @@
             <maven-resource group="org.jboss.as" artifact="jboss-as-jmx"/>
         </module-def>
 
+        <module-def name="org.jboss.as.logging">
+            <maven-resource group="org.jboss.as" artifact="jboss-as-logging"/>
+        </module-def>
+
         <module-def name="org.jboss.as.network">
             <maven-resource group="org.jboss.as" artifact="jboss-as-network"/>
         </module-def>
@@ -781,10 +785,6 @@
 
         <module-def name="org.jboss.as.jpa.util">
             <maven-resource group="org.jboss.as" artifact="jboss-as-jpa-util"/>
-        </module-def>
-
-        <module-def name="org.jboss.as.logging">
-            <maven-resource group="org.jboss.as" artifact="jboss-as-logging"/>
         </module-def>
 
         <module-def name="org.jboss.as.mail">
