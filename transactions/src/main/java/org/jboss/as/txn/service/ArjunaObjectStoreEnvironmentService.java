@@ -3,7 +3,6 @@
  */
 package org.jboss.as.txn.service;
 
-import com.arjuna.ats.internal.arjuna.objectstore.hornetq.HornetqJournalEnvironmentBean;
 import org.jboss.msc.service.Service;
 import org.jboss.msc.service.StartContext;
 import org.jboss.msc.service.StartException;
@@ -40,17 +39,7 @@ public class ArjunaObjectStoreEnvironmentService implements Service<Void> {
          final ObjectStoreEnvironmentBean defaultActionStoreObjectStoreEnvironmentBean =
            BeanPopulator.getNamedInstance(ObjectStoreEnvironmentBean.class, "default");
 
-        if(useHornetqJournalStore) {
-            HornetqJournalEnvironmentBean hornetqJournalEnvironmentBean = BeanPopulator.getDefaultInstance(
-                    com.arjuna.ats.internal.arjuna.objectstore.hornetq.HornetqJournalEnvironmentBean.class
-            );
-            hornetqJournalEnvironmentBean.setStoreDir(objectStoreDir+"/HornetqObjectStore");
-            defaultActionStoreObjectStoreEnvironmentBean.setObjectStoreType(
-                    "com.arjuna.ats.internal.arjuna.objectstore.hornetq.HornetqObjectStoreAdaptor"
-            );
-        } else {
-            defaultActionStoreObjectStoreEnvironmentBean.setObjectStoreDir(objectStoreDir);
-        }
+        defaultActionStoreObjectStoreEnvironmentBean.setObjectStoreDir(objectStoreDir);
 
         final ObjectStoreEnvironmentBean stateStoreObjectStoreEnvironmentBean =
             BeanPopulator.getNamedInstance(ObjectStoreEnvironmentBean.class, "stateStore");
