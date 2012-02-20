@@ -223,6 +223,10 @@
             <maven-resource group="org.jboss.as" artifact="jboss-as-threads"/>
         </module-def>
 
+        <module-def name="org.jboss.as.transactions">
+            <maven-resource group="org.jboss.as" artifact="jboss-as-transactions"/>
+        </module-def>
+
         <module-def name="org.jboss.com.sun.httpserver">
             <maven-resource group="org.jboss.com.sun.httpserver" artifact="httpserver"/>
         </module-def>
@@ -869,10 +873,6 @@
 
         <module-def name="org.jboss.as.security">
             <maven-resource group="org.jboss.as" artifact="jboss-as-security"/>
-        </module-def>
-
-        <module-def name="org.jboss.as.transactions">
-            <maven-resource group="org.jboss.as" artifact="jboss-as-transactions"/>
         </module-def>
 
         <module-def name="org.jboss.as.web">
