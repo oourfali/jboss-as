@@ -254,6 +254,14 @@
             <maven-resource group="org.jboss" artifact="jandex"/>
         </module-def>
 
+        <module-def name="org.jboss.jts">
+            <maven-resource group="org.jboss.jbossts" artifact="jbossjta"/>
+        </module-def>
+
+        <module-def name="org.jboss.jts.integration">
+            <maven-resource group="org.jboss.jbossts" artifact="jbossjta-integration"/>
+        </module-def>
+
         <module-def name="org.jboss.marshalling">
             <maven-resource group="org.jboss.marshalling" artifact="jboss-marshalling"/>
         </module-def>
@@ -949,14 +957,6 @@
 
         <module-def name="org.jboss.jaxbintros">
             <maven-resource group="jboss.jaxbintros" artifact="jboss-jaxb-intros"/>
-        </module-def>
-
-        <module-def name="org.jboss.jts">
-            <maven-resource group="org.jboss.jbossts" artifact="jbossjta"/>
-        </module-def>
-
-        <module-def name="org.jboss.jts.integration">
-            <maven-resource group="org.jboss.jbossts" artifact="jbossjta-integration"/>
         </module-def>
 
         <module-def name="org.jboss.netty">
