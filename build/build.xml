@@ -292,6 +292,10 @@
             <maven-resource group="org.jboss.as" artifact="jboss-as-naming"/>
         </module-def>
 
+        <module-def name="org.jboss.jboss-transaction-spi">
+            <maven-resource group="org.jboss" artifact="jboss-transaction-spi"/>
+        </module-def>
+
         <module-def name="org.jboss.remoting3">
             <maven-resource group="org.jboss.remoting3" artifact="jboss-remoting"/>
         </module-def>
@@ -912,10 +916,6 @@
 
         <module-def name="org.jboss.integration.ext-content">
             <!-- Bundling external content into deployments -->
-        </module-def>
-
-        <module-def name="org.jboss.jboss-transaction-spi">
-            <maven-resource group="org.jboss" artifact="jboss-transaction-spi"/>
         </module-def>
 
         <module-def name="org.jboss.iiop-client">
